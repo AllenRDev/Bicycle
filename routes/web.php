@@ -15,4 +15,3 @@ use App\Http\Controllers\BicycleController;
 */
 
 Route::get('/', [BicycleController::class, 'index']);
-Route::post('/', [BicycleController::class, 'store'])->name('bicycle.store');
